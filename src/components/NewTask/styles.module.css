@@ -1,0 +1,43 @@
+.container {
+  height: 3.375rem;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0.5rem
+}
+
+.container input {
+  flex: 1;
+  min-width: 39.875rem;
+  padding: 1rem;
+  color: var(--gray-100);
+
+  background: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+}
+
+.container button {
+  cursor: pointer;
+  flex: 1;
+  background: var(--blue-500);
+  border: 0;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gray-100);
+  font-size: 0.75rem;
+  font-weight: 700;
+
+  transition: filter 0.2s;
+}
+
+.container button:hover {
+  filter: brightness(0.8);
+}
+
+.container img {
+  margin-left: 0.25rem;
+}

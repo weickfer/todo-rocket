@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background: var(--gray-500);
+  min-height: 4.5rem;
+  padding: 1rem;
+  border: 1px solid var(--gray-400);
+  border-radius: 8px;
+}
+
+.container p {
+  text-align: left;
+  display: block;
+  min-width: 39.5rem;
+  color: var(--gray-100);
+  font-size: 0.875rem;
+}
+
+.checkbox {
+  border: 0;
+  background: transparent;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox div {
+  width: 1.125rem;
+  height: 1.125rem;
+  border: 2px solid var(--blue-300);
+  border-radius: 100%;
+}
+
+.checkboxToggled {
+  border: 0;
+  background: transparent;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkboxToggled div {
+  width: 1.125rem;
+  height: 1.125rem;
+  background: var(--purple-500);
+  border: 2px solid var(--purple-500);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.deleteButton {
+  border: 0;
+  background: transparent;
+  width: 1.5rem;
+  height: 1.5rem;
+}
